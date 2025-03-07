@@ -1,0 +1,97 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins:wght@700&family=Roboto:wght@400&display=swap');
+
+body {
+  background-color: #00c3ff;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-family: 'Lilita One', cursive; /* Updated to Lilita One */
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+form {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+label {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 10px;
+  display: block;
+  text-align: left;
+}
+
+input {
+  width: 96.5%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button {
+  display: block; /* Force block-level layout */
+  width: 100%; /* Full-width for alignment */
+  margin-bottom: 15px; /* Add spacing */
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #fff;
+  background: #007bff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.breakdown-container {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+button.get-location-button {
+  margin-bottom: 10px;
+}
+
+
+button:hover {
+  background: #0056b3;
+}
+
+.error-message {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: red;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
