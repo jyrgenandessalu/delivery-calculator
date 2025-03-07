@@ -26,9 +26,10 @@ Ensure you have the following installed on your system:
 
 ### Setup Instructions
 
-1. Extract the contents of the provided ZIP file.
-2. Open the project folder in your preferred code editor (e.g., Visual Studio Code).
-
+1. Clone the repository.
+- git clone https://github.com/jyrgenandessalu/delivery-calculator.git
+2. Head to the root folder
+  
 ### Install dependencies:
 
 --- npm install
